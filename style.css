@@ -1,0 +1,462 @@
+/*Первый блок*/
+.navigacia
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigacia a {
+    
+    text-decoration: none;
+}
+
+.left_block
+{
+    display: flex;
+    justify-content:left;
+}
+
+.center_block
+{
+    display: flex;
+    justify-content:center;
+}
+
+.center_block a 
+{
+    padding: 0 20%;
+    font-weight: bold;
+    color: grey;
+}
+
+.right_block
+{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    text-decoration: none;
+}
+
+.right_block a 
+{
+    font-weight: bold;
+    color: black;
+    padding: 0 10%;
+}
+
+.right_block .demo
+{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(86, 204, 250);
+    border-radius: 2px;
+    padding: 5% 10%;
+    margin: 5px;
+    width: 100px;
+}
+
+/*Второй блок*/
+.cactus
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cactus img 
+{
+    width: 1200px;
+    text-align: center;
+}
+
+.cactus .date
+{
+    display: flex;
+    justify-content: center;
+}
+
+.cactus .date button
+{
+    color: white;
+    background-color: blue;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px;
+    margin: 15px;
+}
+
+.cactus .date h4
+{
+    color: grey;
+}
+
+/*Третий блок*/
+.Password_tracking .info
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Password_tracking h1
+{
+    font-size: 60px;
+    text-align: center;
+}
+
+.Password_tracking p
+{
+    margin: 0px 195px;
+    font-size: 23px;
+    color: grey;
+    line-height: 2.0;
+}
+
+.Password_tracking h2
+{
+    margin-top: 92px;
+    margin-left: 185px;
+    font-size: 33px;
+}
+
+.Password_tracking .integers
+{
+    margin-top: 40px;
+}
+
+/*Четвертый блок*/
+.Password_tracking .girl
+{
+    padding: 90px 260px;
+}
+
+.Password_tracking h3
+{
+    margin: 30px 190px;
+    font-size: 33px;
+}
+
+/*Пятый блок*/
+.basic_provisions h3
+{
+    margin: 30px 190px;
+    font-size: 33px;
+}
+
+.basic_provisions p
+{
+    margin: 0px 195px;
+    font-size: 23px;
+    color: grey;
+    line-height: 2.0;
+}
+
+/*Шестой блок*/
+.headline
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.headline b
+{
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.headline p
+{
+    margin: 0px 195px;
+    font-size: 23px;
+    color: grey;
+    line-height: 2.0;
+}
+
+.headline img
+{
+    margin-right: 232px;
+}
+
+/*Седьмой блок*/
+.fear
+{
+    margin-top: 100px;
+}
+
+.fear h3
+{
+    margin: 30px 190px;
+    font-size: 33px;
+}
+
+.fear p
+{
+    margin: 0px 195px;
+    font-size: 23px;
+    color: grey;
+    line-height: 2.0;
+}
+
+/*Восьмой блок*/
+.author
+{   
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+}
+.author h3
+{   
+    margin: 70px 0 0 195px;
+    color: grey;
+}
+
+.author .photo
+{
+    display: flex;
+    margin: 35px 0px 0px 175px;
+}
+
+.line
+{
+    margin: 250px 0;
+    border-top: 1px solid;
+    color: lightgrey;
+}
+
+/*Девятый блок*/
+.blogs_recentes
+{
+    font-family: Arial;
+    text-align: center;
+}
+
+.blogs_recentes h3
+{
+    font-size: 50px;
+}
+
+.blogs_recentes p
+{
+    line-height: 1.5;
+    color: grey;
+    font-size: 20px;
+}
+
+.blog .cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Карточка News*/
+.cards .news
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cards .news img
+{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.cards button
+{
+    background-color: blue;
+    position: initial;
+    transform: translate(100%, -72%);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.cards .news h3
+{
+    text-align: left;
+    font-size: 33px;
+    font-family: Arial;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.cards .name 
+{
+    font-size: 15x;
+    color: grey;
+}
+
+/*Карточка Media*/
+.cards .media
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cards .media img
+{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.cards button
+{
+    background-color: blue;
+    position: initial;
+    transform: translate(100%, -72%);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.cards .media h3
+{
+    text-align: left;
+    font-size: 33px;
+    font-family: Arial;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.cards .name 
+{
+    font-size: 15x;
+    color: grey;
+}
+
+/*Карточка Technology*/
+.cards .technology
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cards .technology img
+{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.cards button
+{
+    background-color: blue;
+    position: initial;
+    transform: translate(100%, -72%);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.cards .technology h3
+{
+    text-align: left;
+    font-size: 33px;
+    font-family: Arial;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.cards .name 
+{
+    font-size: 15x;
+    color: grey;
+    text-align: center;
+    margin-top: 80px;
+}
+.footer
+{ 
+    display: flex;
+    flex-direction: column;
+    background-color: #4646d7;
+    color: white;
+    margin-top: 10%;
+}
+.footer .authorization
+{
+   text-align: center;
+   margin-top: 250px; 
+}
+
+.footer h2
+{
+   font-size: 50px;
+}
+
+.footer p
+{
+   font-size: 12px;
+}
+
+.footer .pole
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.footer .pole button 
+{
+    padding: 10px 0;
+    margin: 40px 40%;
+    color: white;
+    background-color:#00cfcf;
+}
+
+.footer .info 
+{
+    display: flex;
+    align-items: start;
+    font-weight: bold;
+}
+
+.footer .info p
+{
+    font-size: 20px;
+}
+
+.footer .info  a
+{
+    color: #1dbfbc;
+}
+
+.footer .info 
+{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.footer .info .second
+{
+    margin-left: 10%;
+}
+
+.footer .info .third
+{
+    margin-left: 10%;
+}
+
+.footer .info .fourth
+{
+    margin-left: 10%;
+}
+
+.end 
+{
+    background-color: #4646d7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
