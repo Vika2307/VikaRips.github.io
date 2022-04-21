@@ -1,242 +1,347 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fotns/poppins/poppins.css">
 </head>
 <body>
-    <!--Первый блок-->
-    <section class="first_section">
-        <div class="navigacia" >
-            <nav class="left_block">
-                <a href=""><img src="img/logo.PNG"></a>
-            </nav>
-            <nav class="center_block">
-                <a href="">Products</a>
-                <a href="">Academy</a>
-                <a href="">Careers</a>
-                <a href="">Blog</a>
-            </nav>
-            <nav class="right_block">
-                <a href="">Login</a>
-                <a class="demo" href="">Demo</a>
-            </nav>
+
+    <!-- Первый блок - верхняя панель-->
+
+    <section class="first-section">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo-inverse-259x50.png" alt="">
+                </div>
+
+                <nav class="links">
+                    <a href="#">About</a>
+                    <a href="#">Discography</a>
+                    <a href="#">Tours</a>
+                    <a href="#">Photos</a>
+                </nav>
+
+                <div class="social-network">
+                    <img src="img/icon-facebook.svg">
+                    <img src="img/icon-instagram.svg">
+                    <img src="img/icon-twitter.svg">
+                    <img src="img/icon-youtube.svg">
+                </div>
+    
+                <div class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </header>
+         <!--Второй блок- остаток времени-->
+
+        <div class="container block-time">
+            
+            <div class="songs-title">
+                <p>New Single</p>
+                <svg class="text-svg">
+                    <text x="0" y="85%">Feel the Rhythm</text>
+                </svg>
+            </div>
+
+            <div class="time">
+
+                <div class="left-col">
+                    <p class="title">Next Gig</p>
+                    <p class="desc">Tickets for my next event are already available.</p>
+                </div>
+
+                <div class="center-col">
+                    <div class="item">
+                        <p class="number">41</p>
+                        <p class="title-number">Days</p>
+                    </div>
+                    <div class="item">
+                        <p class="number">23</p>
+                        <p class="title-number">Hours</p>
+                    </div>
+                    <div class="item">
+                        <p class="number">52</p>
+                        <p class="title-number">Minutes</p>
+                    </div>
+                    <div class="item">
+                        <p class="number">56</p>
+                        <p class="title-number">Seconds</p>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <button class="button-block">Buy Tickets</button>
+                </div>
+
+            </div>
+
         </div>
     </section>
-    <!--Второй блок-->
-    <section class="cactus" >
-        <img src="img/cactus.PNG">
-        <div class="date">
-            <button>News</button>
-            <h4>jul 18,2018</h4>
+
+    <!--Третий блок - о диджее-->
+    <section class="about-dj">
+        <div class="container">
+            <div class="left-col ">
+                <img src="img/photo-section2.jpg">
+            </div>
+            <div class="right-col">
+                <h3>About DJ Angerone</h3>
+                <p class="desc1">Mike Myers, professionally known as DJ Angerone, is internationally acclaimed Progressive House & Trance DJ & musician.</p>
+                <q>I try to experiment with various music genres in every track that I make.</q>
+                <p class="desc2">Since the beginning of his career in 2010, he has already released 5 EPs on a range of worldwide known labels (Booster Records, DSTRCT Recordings etc.) and received a number of music awards.</p>
+            </div>  
         </div>
     </section>
-    <!--Третий блок-->
-    <section class="Password_tracking">
-        <div class="info">
-        <h1>Mauris non tortor ipsu
-            <br>aesent ipsum libero.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt libero ac magna pellentesque, non
-            <br>tincidunt erat vehicula. Pellentesque viverra justo vel cursus blandit. Sed ornare mauris quis mauris pharetra
-            <br>maximus in nec ante. Cras vitae tempor ante, sed venenatis enim. Donec at eros sit amet dui commodo
-            <br>egestas quis ut nulla. Ut mattis convallis risus, ut tempor risus congue sed. Mauris rutrum risus ac venenatis
-            <br>elementum. Nam feugiat risus id massa eleifend, in tincidunt dui dignissim. Nam ut est elementum ante
-            <br>vulputate semper sed nec massa. Maecenas varius tortor sit amet arcu interdum eleifend.</p>
-        <h2>The US isn't the only country that does this.</h2>
-        <p>Vivamus dictum fermentum elit. Vestibulum in lacus quis mauris pulvinar fringilla. Vestibulum eget consequat
-            <br> lectus, eu blandit turpis. Proin urna neque, scelerisque ac pellentesque quis, maximus at nunc. In et velit
-            <br> mauris. Suspendisse consectetur odio quis justo congue, quis aliquam orci scelerisque. Fusce congue mauris
-            <br> vel risus egestas semper. Nullam non interdum turpis. Phasellus eget rutrum quam. In tristique tincidunt leo,
-            <br> id maximus turpis hendrerit eu.</p>        
-        <p class="integers">Integer at Ma kommimus nisi. Pellentes romvue habitant morbi Tristi romvue senectus et netus et malesuada fames ac turpis egest. Curabitur condimentum felis id lectus commodo,
-            <br> egestas gravida diam lacinia.</p>
+
+    <!--Четвертый блок - о последних резилах диджея-->
+    <section class="dj-releases">
+        <div class="container">
+            <div class="discography">
+                <h3>Listen to the Latest Releases by DJ Angerone</h3>
+                <button>View Discography</button>
+            </div>
         </div>
-        <!--Четвертый блок-->
-        <div class="girl">
-            <img src="img/girl.PNG">
+    </section>
+
+    <!--Пятый блок-->
+    <section class="latest-releases">
+        <div class="container">
+            <div class="about-singles">
+                <h3>Latest Releases</h3>
+                <p>Here are the most recent singles, EPs, and other releases that DJ Angerone has worked on. You can stream and buy them on our website and a variety of digital stores.</p>
+            </div>
+            <div class="albums">
+
+                <div class="item">
+                    <img src="img/intense.jpg">
+                    <p class="album-title">Intence</p>
+                    <p class="year-of-issue">2019</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/my space.jpg">
+                    <p class="album-title">My space</p>
+                    <p class="year-of-issue">2019</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/2018.jpg">
+                    <p class="album-title">Trance Year Mix</p>
+                    <p class="year-of-issue">2018</p>
+                </div>
+            </div>
         </div>
-        <!--Пятый блок-->
-        <div class="basic_provisions">
-        <h3>Executive Summary</h3>
-        <p>Cras ut metus a mauris consectetur vehicula. Sed sodales massa magna. Curabitur hendrerit vestibulum
-            <br>tellus, vitae tincidunt massa vulputate sed. Sed laoreet pellentesque elit, non feugiat erat tincidunt ac. Nullam
-            <br>condimentum tempus mauris, non auctor ligula fringilla et. Praesent tincidunt tristique turpis, lobortis tempus
-            <br>sapien cursus quis. Quisque ac rutrum erat. Morbi varius consequat ipsum a venenatis. Mauris quis ipsum
-            <br>massa. In ullamcorper diam malesuada, faucibus neque et, gravida odio.
-        </p>
+    </section>
+
+    <!--Шестой блок-->
+    <section class="fanbase">
+        <div class="container">
+            <div class="left-col">
+                <img src="img/gallery-dj.png">
+            </div>
+            <div class="right-col">
+                <h3>Join the Fanbase</h3>
+                <p>Take your chance to join DJ Angerone’s fan club to receive exclusive tracks, free downloads, and other great offers.</p>
+                <ol class="offer-list">
+                    <li>
+                        <h3>Exclusive Releases</h3>
+                        <p>Get access to unreleased albums and EPs before they are published.</p>    
+                    </li>
+                    <li>
+                        <h3>Full DJ Sets & Podcasts</h3>
+                        <p>Listen and download full sets and podcasts with tracklists by DJ Angerone.</p>
+                    </li>
+                    <li>
+                        <h3>Free Downloads</h3>
+                        <p>Free tracks and remixes are regularly published for DJ Angerone’s fan club.</p>    
+                    </li>
+                </ol> 
+            </div>
         </div>
-        <!--Шестой блок-->
-        <div class="headline">
-        <p>
-            <b color="black">Another headline</b>
-            <br>Cras ut metus a mauris consectetur
-            <br>vehicula. Sed sodales massa magna.
-            <br>Curabitur hendrerit vestibulum tellus, vitae
-            <br>tincidunt massa vulputate sed. Sed laoreet
-            <br>pellentesque elit, non feugiat erat tincidunt
-            <br>ac. Nullam condimentum tempus mauris,
-            <br>non auctor ligula fringilla et. Praesent
-            <br>tincidunt tristique turpis, lobortis tempus
-            <br>sapien cursus quis. Quisque ac rutrum erat.
-            <br>Morbi varius consequat ipsum a venenatis.
-            <br>Mauris quis ipsum massa. In ullamcorper
-            <br>diam malesuada, faucibus neque et,
-            <br>gravida odio.
-        </p>
-        <img src="img/pot.PNG">
-        </div>
-        <!--Седьмой блок-->
-        <div class="fear">
-            <h3>Some cool headline over here</h3>
-            <p>Cras ut metus a mauris consectetur vehicula. Sed sodales massa magna. Curabitur hendrerit vestibulum
-                <br>tellus, vitae tincidunt massa vulputate sed. Sed laoreet pellentesque elit, non feugiat erat tincidunt ac. Nullam
-                <br>condimentum tempus mauris, non auctor ligula fringilla et. Praesent tincidunt tristique turpis, lobortis tempus
-                <br>sapien cursus quis. Quisque ac rutrum erat. Morbi varius consequat ipsum a venenatis. Mauris quis ipsum
-                <br>massa. In ullamcorper diam malesuada, faucibus neque et, gravida odio.
-            </p>
+    </section>
+
+    <!--Седьмой блок-->
+    <section class="tour-schedule">
+        <div class="container">
+            <div class="title">
+                <h3>Tour Schedule</h3>
+            </div>
+            <div class="tour-list">
+                <div class="schedule">
+                    <p class="months">March</p>
+                    <p class="months">April</p>
+                    <p class="months">May</p>
+                </div>   
+                <div class="tickets">
+                    <div class="item">
+                        <div class="left-col">
+                            <p class="date">March 13, 2019</p>
+                            <h3>Encore Beach Club, Las Vegas</h3>
+                            <p class="visit">DJ Angerone will visit one of the most famous night clubs in Las Vegas in March to play his latest tracks and the greatest Trance hits as a part of his US tour.</p>
+                        </div>
+                        <div class="right-col">
+                            <button class="purchase">Buy tickets"</button>
+                        </div>
+                    </div> 
+                    <div class="item">
+                        <div class="left-col">
+                            <p class="date">March 21, 2019</p>
+                            <h3>Soundscape Weekender Festival, Coventry</h3>
+                        </div>
+                        <div class="right-col">
+                            <button class="purchase">Buy tickets"</button>
+                        </div>
+                    </div>         
+                    <div class="item">
+                        <div class="left-col">
+                            <p class="date">March 25, 2019</p>
+                            <h3>Barcelona Beach Festival, Barcelona</h3>
+                        </div>
+                        <div class="right-col">
+                            <button class="purchase">Buy tickets"</button>
+                        </div>
+                    </div>         
+                    <div class="item">
+                        <div class="left-col">
+                            <p class="date">March 29, 2019</p>
+                            <h3>Barclaycard Arena, Hamburg</h3>
+                        </div>
+                        <div class="right-col">
+                            <button class="purchase">Buy tickets"</button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
         </div>
     </section>
 
     <!--Восьмой блок-->
-    <section class="author">
-        <h3>Author</h3>
-        <div class="photo">
-            <img src="img/author.PNG">
-            <p>Karen Brom
-                <br>Super bloger
-            </p>
-        </div>
-        <div class="line">
+    <section class="partners-sponsors">
+        <div class="container">
+            <div class="title">
+                <h3>Partners & Sponsors</h3>
+            </div>
+            <div class="logo">
+                <div class="img-item">
+                    <img src="img/lndesign.png">
+                </div>
+                <div class="img-item">
+                    <img src="img/ln.png">
+                </div>
+                <div class="img-item">
+                    <img src="img/weblogo.png">
+                </div>
+                <div class="img-item">
+                    <img src="img/custom.png">
+                </div>
+            </div>
+            <div class="points">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
         </div>
     </section>
 
-     <!--Девятый блок-->
-    <section class="blog">
-        <div class="blogs_recentes">
-            <h3>Veja as ultimas noso Blog</h3>
-            <p>Lorem ipsum dolor sit amet consedu arbet
-            <br>achtum alordo scust olsdk eroeijc cy</p>
-        </div>
-        <div class="cards">
-            <!--Карточка News-->
-            <div class="news">
-                <img src="img/news.PNG">
-                <button>News</button>
-                <h3>How subscription
-                    <br>business with user
-                    <br>analytics
-                </h3>
-                <div class="name">
-                    <p>
-                        James Smith | 2 weeks ago
-                    </p>
+    <!--Девятый блок-->
+    <section class="ticket-price">
+       <div class="container">
+           <!--1-->
+           <div class="title">
+               <h3>Tickets</h3>
+           </div>
+           <div class="price-tags">
+                <div class="prices">
+                    <h5>BASIC</h5>
+                    <p>50<sup>$</sup></p>
+                    <ul> 
+                        <li>1 Event</li>
+                        <li>Basic Access</li>
+                        <li>Club Events Only</li>
+                        <li>Free Snacks</li>
+                    </ul>
+                    <button class="buy-now">BUY NOW</button>
+                </div>  
+
+                <div class="prices">
+                    <h5>STANDARD</h5>
+                    <p>80<sup>$</sup></p>
+                    <ul> 
+                         <li>3 Events</li>
+                         <li>Extended Access</li>
+                         <li>Club & Beach Events</li>
+                         <li>Free Snacks & Merch</li>
+                    </ul>
+                    <button class="buy-now active">BUY NOW</button>
                 </div>
-            </div>
-            <!--Карточка Media-->
-            <div class="media">
-                <img src="img/media.PNG">
-                <button>Media</button>
-                <h3>How subscription
-                    <br>business with user
-                    <br>analytics
-                </h3>
-                <div class="name">
-                    <p>
-                        James Smith | 2 weeks ago
-                    </p>
+
+                <div class="prices">
+                    <h5>GOLD</h5>
+                    <p>120<sup>$</sup></p>
+                    <ul> 
+                         <li>5+ Events</li>
+                         <li>Unlimited Access</li>
+                         <li>All Events</li>
+                         <li>Free Accommodation</li>
+                    </ul>
+                    <button class="buy-now">BUY NOW</button>
                 </div>
+           </div>
+       </div>  
+    </section>
+
+    <!--Деcятый блок-->
+    <section class="zoom">
+            <div class="picture">
+                <img src="img/background4.PNG">
             </div>
-            <!--Карточка Technology-->
-            <div class="technology">
-                <img src="img/technology.PNG">
-                <button>Technology</button>
-                <h3>How subscription
-                    <br>business with user
-                    <br>analytics
-                </h3>
-                <div class="name">
-                    <p>
-                        James Smith | 2 weeks ago
-                    </p>
+    </section>
+
+    <!--Одиннадцатый блок-->
+    <section class="news">
+        <div class="container">
+            <div class="title">
+                <h3>Recent News</h3>
+            </div>
+            <div class="columns">
+                <div class="left_columns">
+                    <p class="date">JUN 02, 2019</p>
+                    <h4>New Single “Feel the Rhythm” is Already Available!</h4>
+                    <p class="infa">DJ Angerone’s new single “Feel The Rhythm” is already released via Divergence Records and it’s now available for streaming and downloading...</p>
+                    <p class="read">Read more</p>
+                </div>
+
+                <div class="center_columns">
+                    <p class="date">JUL 02, 2019</p>
+                    <h4>3 New Tour Locations Announced</h4>
+                    <p class="infa">We are glad to share with you the recent information about three new locations of DJ Angerone’s “Subliminal Tour”. Now you can...</p>
+                    <p class="read">Read more</p>
+                </div>
+
+                <div class="right_columns">
+                    <p class="date">AUG 02, 2019</p>
+                    <h4>Top 10 Remixes and Collaborations by DJ Angerone</h4>
+                    <p class="infa">As one of the most prominent House/Trance DJs and musicians, DJ Angerone has released a lot of great tracks. But what do you know about his...</p>
+                    <p class="read">Read more</p>
+                </div>
+
+                <div class="points">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="footer">
-        <div class="authorization">
-            <h2>Help your team
-                <br>achieve more</h2>
-            <p>Sea what Culture.Racks can do for your teams.</p>
-        </div>
-        <div class="pole">
-            <input 
-                name=""   
-                type="text" style="
-            margin: 0 40%;
-            padding: 10px 0px;
-            ">
-            <br>
-            <input name="" type="text" style="
-            margin: 0 40%;
-            padding: 10px 0px;
-            ">
-            <br>
-            <input name="" type="text"
-            style="
-            margin: 0 40%;
-            padding: 10px 0px;
-            ">
-            <br>
-            <input name="" type="text"
-            style="
-            margin: 0 40%;
-            padding: 10px 0px;
-            ">
-            <button>Get the Demo</button>
-        </div>
-        <div class="info">
-            <div class="first">
-                <img src="img/log.PNG">
-                <br><p>Fully eu stomizable performing
-                    <br>management platform that suits
-                    <br>your culture. Not the other way
-                    <br>around.
-                </p>
-                <br>
-                <img src="img/face.PNG">
-                <img src="img/twit.PNG">
-                <img src="img/in.PNG">
-                <img src="img/google.PNG">
-            </div>
-            <div class="second">
-                <p>Product</p>
-                <br>
-                <p>Align</p>
-                <p>Develop</p>
-                <p>Recognize</p>
-            </div>
-            <div class="third">
-                <p>Contact</p>
-                <br>
-                <a href="">growih@iqulturerocks.c</a>
-                <p>+ 1-650-666-2390</p>
-                <p>+55- 11-98121 -2176</p>
-                <a href="">Email us -></a>
-            </div>
-            <div class="fourth">
-                <p>HeadQuarters</p>
-                <p>548 Market St, #78175, San
-                    <br>Francisco, CA 94104</p>
-                <a href="">Find us on Google Maps</a>
-            </div>
-        </div>
-        <div class="end">
-            <p>Powered by Qulture Rocks. All rights reserved</p>
-            <p>Privacy policy</p>
-        </div>
-    </section>
+
+
 </body>
 </html>
