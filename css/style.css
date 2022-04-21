@@ -1,598 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Poppins';
+    font-family: Arial;
+    margin: 0;
 }
 
-/*первый блок*/
 .container {
-    max-width: 1200px;
+    max-width: 1260px;
     margin: 0 auto;
 }
- 
-.first-section .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.first-section {
-    height: 100vh;
-    background-image:url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-}
-
-.social-network {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.social-network img {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
-}
-
-.social-network > img:last-child {
-    margin-right: 0;
-}
-
-.first-section header {
-    padding: 32px 0;
-}
-
-.links a {
-    color: #ffffff;
-    margin: 20px;
-    text-transform: uppercase;
-}
-
-.menu > div {
-    width: 35px;
-    height: 2px;
-    margin: 6px 0;
-    background-color: #ffffff;
-}
-
-/*второй блок*/
-
-.songs-title{
+/* Первый блок */
+.header {
+    background: #C0D1E2;
     width: 100%;
-    margin-bottom: 50px;
+    height: 100px;
 }
 
-.songs-title p {
+.logo-img {
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    margin-right: 30px;
+}
+
+.name-company {
+    padding-top: 30px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
     color: #ffffff;
- }
-    
-.songs-title svg {
-    width: 100%;
-    overflow: visible;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1;
-    fill: transparent;
-    stroke: #ffffff;
-    stroke-width: 1px;
-    font-size: 120px;
+    margin: 0;
+    color: #445D86;
 }
 
-.first-section .block-time {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-}
+/*Второй блок*/
 
-.block-time .time {
-    background-image: url(../img/black.jpg);
-    width: 100%;
-    padding: 43px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: -100px;
-
-}
-
-.block-time .time .left-col .title{
-    font-weight:bold;
-    font-size: 36px;
-    color: #ffffff;
-}
-.block-time .time .left-col .desc {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.8);
-    margin-top: 6px;
-    max-width: 195px;
-}
-
-.center-col {
-    display: flex;
-}
-
-.center-col .item {
-    display: flex;
-    flex-direction: column;
-    width: 130px;
-    padding: 0 10px;
-    text-align: center;
-}
-
-.center-col .item .number {
-    color: #ffffff;
-    font-size: 75px;
-    font-weight: 500;
-    line-height: 77px;
-}
-
-.center-col .item .title-number {
-    color: rgba(255, 255, 255, 0.8);
-    font-size:14px;
-    text-transform: uppercase;
+.introduction {
+    padding: 100px 0;
+    background: #E5ECF3;
     margin-top: 10px;
 }
 
-.button-block {
-    width: 100%;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 1.5;
-    padding: 18px 35px;
-    color: #ffffff;
-    background-color: #8121E0;
-    border-color: #8121E0;
-}
-
-/*Третий блок*/
-.about-dj .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-}
-
-.about-dj .left-col {
-    max-width: 483px;
-    border-radius: 7px;
-    padding: 0 0 0 40px;
-}
-
-.about-dj .right-col {
-    max-width: 500px;
-}
-
-.about-dj .right-col h3 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.about-dj .right-col .desc1{
-    font-size: 15px;
-    margin:6px;
-}
-
-.about-dj .right-col q {
-    font-size: 24px;
-}
-
-.about-dj .right-col .desc2{
-    font-size: 15px;
-    margin-top: 35px;
-}
-
-/*Четвертый блок*/
-.dj-releases {
-    position: relative;
-    background-image: url(../img/background2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 150px 0;
-}
-
-.dj-releases::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0, 0.5);
-}
-
-.dj-releases .container {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-}
-
-.dj-releases .discography h3 {
-    font-size: 36px;
-    color: #ffffff;
-}
-
-.dj-releases .discography button {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 45px;
-    background: #8121E0;
-    padding: 18px 35px;
-    color: #ffffff;
-}
-
-/*Пятый блок*/
-.latest-releases .container {
-    padding: 150px 0;
-}
-
-.latest-releases .about-singles{
-    max-width: 669px;
+.introduction .container {
+    max-width: 700px;
     margin: 0 auto;
+}
+
+.introduction h1 {
+    font-size: 60px;
+    line-height: 70px;
     text-align: center;
-    margin-bottom: 50px;
+    color: #445D86;
+    margin: 0;
 }
 
-.latest-releases .about-singles h3 {
-    font-size: 36px;
-    font-weight: bold;
-    
-}
-
-.latest-releases .about-singles p{
-    font-size: 15px;
-    color: #151515CC;
-    margin-top: 6px;
-}
-
-.albums {
-    display: flex;
-    justify-content:space-between;
-}
-
-.albums .album-title {
-    font-weight: bold;
-}
-
-.albums .item {
+.introduction p {
+    font-size: 22px;
+    line-height: 30px;
     text-align: center;
+    color: #445D86;
+    max-width: 700px;
+    margin: 30px auto;
 }
 
-/*Шестой блок*/
-.fanbase {
-    background-color: black;
-    padding: 150px 0;
-}
-
-.fanbase .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.fanbase .right-col { 
-    background: black;
-    color: white;
-    max-width: 500px;
-}
-
-.fanbase .right-col h3 {
-    font-size: 36px;
+.introduction span {
+    color: rgb(84, 145, 236);
     font-weight: bold;
 }
 
-.fanbase .right-col p {
-    font-size: 15px;
+.introduction button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 238px;
+    height: 58px;
+    background: #C0D1E2;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: rgb(84, 145, 236);
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
 }
 
-.fanbase .offer-list {
-    margin-top: 50px;
-}
+/*  */
 
-.fanbase .offer-list li {
-    position: relative;
-    padding-left: 100px;
+.framework {
     margin-bottom: 60px;
 }
 
-.fanbase .offer-list li h3 {
-    font-size: 24px;
-}
-
-.fanbase .offer-list li p {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.fanbase .offer-list li::after {
-    content: '';
-    position: absolute;
-    top: 25%;
-    left: 10px;
-    width: 40px;
-    height: 60px;
-    border: 1px solid purple;
-}
-
-/*Седьмой блок*/
-.tour-schedule {
-    padding: 115px 0;
-}
-
-.tour-schedule .title h3 {
-    font-size: 36px;
+.framework h2 {
     font-weight: bold;
-    text-align: center;
-} 
-.tour-schedule .tour-list .schedule {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: black;
-    padding: 0 450px;
-    border: 1px solid #C4C4C4;
-    margin-top: 60px;
-    border-radius: 10px 10px 0 0;
-    
-}
-.tour-schedule .schedule .months {
-    color: white;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 57px 0px;
-    letter-spacing: .1em;
-}
-
-.tour-schedule .tickets {
-    border: 1px solid #C4C4C4;
-    border-top: none;
-    padding: 100px;
-}
-
-.tour-schedule .tickets .item {
-    display: flex;
-    justify-content: space-between;
-}
-
-.tour-schedule .tickets .left-col  {
-    margin: 61px 0 0;
-    padding: 0 0 0 100px;
-}
-
-.tour-schedule .tickets .left-col .date {
-    font-size: 18px;
-    color: #151515A3;
-}
-
-.tour-schedule .tickets .left-col h3 {
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-.tour-schedule .tickets .left-col .visit {
-    font-size: 15px;
-    margin-top: 20px;
-    max-width: 580px;
-    color: #151515CC;
-}
-
-.tour-schedule .tour-list .tickets .purchase {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 600;
-    color: #212121;
-    letter-spacing: 0.03em;
-    border: none;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 30px;
-    margin-top: 117px;
-}
-
-/*Восьмой блок*/
-
-.partners-sponsors {
-    position: relative;
-    background-image: url(../img/background3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 150px 0;
-    max-height: 485px;
-}
-
-.partners-sponsors .title {
-    color: white;
-    font-size: 36px;
-    text-align: center;
-}
-
-.partners-sponsors .logo {
-    display: flex;
-    justify-content: center;
-    margin: 0px 30px 0px 0px;
-    margin: 94px 0 0;
-}
-
-.partners-sponsors .lndesign {
-    margin: 0px 30px 0px 0px;
-}
-
-.partners-sponsors .ln {
-    margin: 0px 30px 0px 0px;
-}
-
-.partners-sponsors .weblogo {
-    margin: 0px 30px 0px 0px;
-}
-
-.partners-sponsors .points {
-    display: flex;
-    justify-content: center;
-    padding: 0 15px;
-}
-
-.partners-sponsors .points .circle {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    margin: 80px 5px 0;
-}
-
-/*Девятый блок*/
-
-.ticket-price {
-    padding: 115px 0;
-    text-align: center;
-}
-
-.ticket-price .price-tags {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 45px;
-}
-
-.ticket-price .title {
-    font-size: 36px;
-}
-
-.ticket-price .prices {
-    font-size: 18px;
-    width: 370px;
-    border-right: 1px solid #E7E7E7;
-}
-
-.ticket-price .prices:last-child {
-    border-right: none;
-}
-
-.ticket-price .prices h5 {
-    letter-spacing: .1em;
-    line-height: 28px;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-
-.ticket-price .prices p {
-    font-size: 110px;
-    margin: 25px 0 0;
-}
-.ticket-price .prices sup {
     font-size: 40px;
+    line-height: 47px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #445D86;
 }
 
-.ticket-price .prices li {
-    font-size: 15px;
-    margin: 6px 0 0;
-    list-style-type: none;
+.framework p {
+    font-family: Arial;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+    max-width: 920px;
+    color: #445D86;
 }
 
-.ticket-price .buy-now {
-    background: transparent;
-    width: 140px;
-    height: 60px;
-    border: 1px solid #151515;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 40px;
-    border-radius: 5px;
-    transition: all 0.2s;
+.header-top {
+    margin: 100px auto;
 }
 
-.ticket-price .buy-now:hover {
-    background-color: #8121E0;
-    color: #fff;
-    box-shadow: 0 9px 10px 0 rgb(0 0 0 / 15%);
-}
+/*Четвертый блок*/
 
-
-.ticket-price .buy-now.active {
-    background-color: #8121E0;
-    color: #fff;
-    box-shadow: 0 9px 10px 0 rgb(0 0 0 / 15%);
-}
-
-
-.ticket-price .buy-now .item.two{
-    background-color: #8121E0;
-    color: #ffffff;
-}
-
-/*Деcятый блок*/
-
-.zoom .picture {
-    max-width: 1652px;
-}
-
-/*Одиннадцатый блок*/
-
-.news {
-    padding: 115px 0;
-}
-
-.news .title {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.news .columns {
-    box-sizing: border-box;
+.squares {
     display: flex;
-    justify-content: center;
-    padding: 30px 40px 30px 40px;
-    margin: 0px 40px;
-    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
-.news .columns .date {
-    font-size: 15px;
+.squares > div {
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #C0D1E2;
+}
+
+.squares > div:nth-child(2n) {
+    background-color: #E5ECF3;
+}
+
+.squares > div:nth-child(3n) {
+    margin-right: 0;
+}
+/*Пятый блок*/
+
+.bridge > img {
+    width: 100%;
+    height: 700px;
+}
+
+/*Шестой блок*/ 
+
+.blogs {
+    padding: 100px 0;
+}
+
+.blogs .title {
     font-weight: bold;
-    background: #8121E0;
-    color: #ffffff;
-    padding: 4px 10px;
-    max-width: 122px;
-    max-height: 28px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    letter-spacing: .05em;
+    font-size: 40px;
+    line-height: 47px;
+    color: #445D86;
+    text-align: center;
+    margin: 0 0 50px;
 }
 
-.news .columns h4 {
-    font-size: 24px;
-    font-weight: 400;
-    margin: 13px 0 0;
+.blogs .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.news .columns .infa {
-    margin-top: 15px;
+.blog {
+    width: 400px;
+    height: 467px;
+    margin-right: 30px;
+    font-family: Arial;
+    font-size: 40px;
+    line-height: 47px;
+    border: 1px solid #6187AE;
+    padding: 30px 30px;
 }
 
-.news .columns .read {
-    margin: 35px 0 0;
+.blog:last-child {
+    margin-right: 0;
 }
 
-.news .columns .center_columns {
-    background-image: url(../img/background5.jpg);
-    background-size: cover;
-    color: #fff;
-    border-radius: 7px;
-    padding: 30px 40px 30px 40px;
-    margin: 0px 40px;
+.blog p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.blog h4 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+    margin: 0;
+    color: #445D86;
+}
+
+.blogs .text {
+    font-size: 22px;
+    line-height: 30px;
+    color: #445D86;
+}
+
+.blog button {
+    background: #C0D1E2;
+    border-radius: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #2F97FF;
+    padding: 14px 118px;
+    border: none;
+}
+
+.end {
+    height: 147px;
+    background: #C0D1E2;
+}
+
+.end p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.04em;
+    color: #445D86;
+    padding: 50px 330px;
 }
